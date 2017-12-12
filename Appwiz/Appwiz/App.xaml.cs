@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Microsoft.AppCenter;
-using Microsoft.AppCenter.Analytics;
-using Microsoft.AppCenter.Crashes;
+//using Microsoft.AppCenter;
+//using Microsoft.AppCenter.Analytics;
+//using Microsoft.AppCenter.Crashes;
 
 using Xamarin.Forms;
 
@@ -22,8 +22,8 @@ namespace Appwiz
 		protected override void OnStart ()
 		{
             // Handle when your app starts
-            AppCenter.Start("android=f90978dd-9016-45cb-ad0a-adcaf4383ac2;",
-                   typeof(Analytics), typeof(Crashes));
+            //AppCenter.Start("android=f90978dd-9016-45cb-ad0a-adcaf4383ac2;",
+            //       typeof(Analytics), typeof(Crashes));
         }
 
 		protected override void OnSleep ()
